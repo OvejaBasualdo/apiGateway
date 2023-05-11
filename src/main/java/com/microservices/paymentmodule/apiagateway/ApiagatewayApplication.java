@@ -1,8 +1,10 @@
-package com.microservices.paymentmodule.apiagateway.apiagateway;
+package com.microservices.paymentmodule.apiagateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+@EnableDiscoveryClient
 @SpringBootApplication
 public class ApiagatewayApplication {
 
